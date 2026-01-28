@@ -3,7 +3,6 @@ from typing import Any
 from langchain_community.vectorstores import FAISS
 from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_core.documents import Document
-from langchain_community.vectorstores import VectorStore
 from langchain_openai import AzureOpenAIEmbeddings, AzureChatOpenAI
 from pydantic import SecretStr
 from task._constants import DIAL_URL, API_KEY
